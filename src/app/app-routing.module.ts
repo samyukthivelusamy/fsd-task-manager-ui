@@ -8,7 +8,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: 'addtask', component: AddtaskComponent }, 
+  { path: 'addtask', component: AddtaskComponent },
   { path: 'viewtask', component: ViewtaskComponent },
   { path: 'edittask', component: EdittaskComponent },
   { path: '',   redirectTo: '/addtask', pathMatch: 'full' },
